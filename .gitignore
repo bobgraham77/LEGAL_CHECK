@@ -1,0 +1,45 @@
+# Environnement et Secrets
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers médias et documents lourds
+*.wav
+*.mp3
+*.pdf
+*.docx
+*.png
+*.jpg
+Légifrance.json
+
+# Données générées (Audit)
+to_analyze.json
+RAPPORT_AUDIT_*.md
+*.log
+
+# Scripts utilitaires et de debug
+test_*.py
+debug_*.py
+verify_*.py
+test_piste.py
+test_regex.py
+test_date_version.py
+test_search_with_context.py
+verify_article.py
+
+# IDE
+.vscode/
+.idea/
+.windsurf/
+.cascade/
+
+# OS
+.DS_Store
+Thumbs.db
