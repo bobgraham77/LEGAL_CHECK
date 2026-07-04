@@ -24,15 +24,19 @@ Cette application permet de vérifier la véracité des citations juridiques dan
 
 ## 📋 Utilisation
 
-Lancez l'analyse sur un fichier Markdown :
+Placez votre fichier Markdown dans le dossier `input/`, puis lancez l'analyse :
 ```bash
-python legal_checker.py votre_fichier.md
+python scripts/run_audit.py input/RAPO_V2.md
 ```
+Le résultat sera généré dans `output/to_analyze.json`.
 
 ## 📂 Structure du projet
 
-- `legal_checker.py` : Script principal.
-- `to_analyze.json` : Données extraites pour audit.
+- `core/` : Le moteur de l'application (API Légifrance, Parser, Analyzer).
+- `scripts/` : Scripts d'exécution (ex: `run_audit.py`).
+- `input/` : Dossier pour les documents à analyser.
+- `output/` : Résultats de l'analyse.
+- `tests/` : Scripts de test et documentation API.
 - `.env` : Configuration (ignoré par Git).
 - `requirements.txt` : Dépendances Python.
 
