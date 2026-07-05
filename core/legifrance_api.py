@@ -64,8 +64,14 @@ class LegifranceClient:
             print(f"  Erreur find_code_id: {e}")
         return None
     
-    def search_article(self, article_num, code_name):
-        """Recherche l'ID d'un article dans un code spécifique."""
+    def search_article(self, article_num, code_name, fond="CODE_ETAT"):
+        """Recherche l'ID d'un article dans un code spécifique.
+        
+        Args:
+            article_num: Numéro de l'article à rechercher
+            code_name: Nom du code
+            fond: Type de fond à utiliser ("CODE_ETAT" ou "CODE_DATE")
+        """
         clean_num_match = re.search(r"[L|R|D]?\.?\s?\d+(?:[-─]\d+)*", article_num, re.IGNORECASE)
         clean_num = clean_num_match.group(0).replace(".", "").replace(" ", "") if clean_num_match else article_num
         
@@ -83,18 +89,18 @@ class LegifranceClient:
                         "operateur": "ET"
                     }
                 ],
+                "filtres": [{
+                    "facette": "NOM_CODE",
+                    "valeurs": [exact_code_name]
+                }],
                 "pageNumber": 1,
                 "pageSize": 10,
+                "operateur": "ET",
                 "sort": "PERTINENCE",
-                "typePagination": "DEFAUT"
+                "typePagination": "ARTICLE"
             },
-            "fond": "CODE_ETAT"
+            "fond": fond
         }
-        
-        payload["recherche"]["filtres"] = [{
-            "facette": "TEXT_NOM_CODE",
-            "valeurs": [exact_code_name]
-        }]
         
         try:
             response = requests.post(url, json=payload, headers=self._get_headers())

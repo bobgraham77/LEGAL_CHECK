@@ -1,0 +1,74 @@
+[
+  {
+    "id": "LEGITEXT000006069568",
+    "cid": "LEGITEXT000006069568",
+    "etat": "VIGUEUR",
+    "titre": "Code général des impôts, annexe I",
+    "dateDebut": "1950-04-30T00:00:00.000+0000",
+    "dateFin": "2999-01-01T00:00:00.000+0000",
+    "lastUpdate": "2026-07-01T00:00:00.000+0000",
+    "pdfFileName": "LEGITEXT000006069568.pdf",
+    "pdfFileSize": "45,7 Ko",
+    "pdfFilePath": "/LEGI/TEXT/00/00/06/06/95/68/LEGITEXT000006069568/LEGITEXT000006069568.pdf"
+  },
+  {
+    "id": "LEGITEXT000006069569",
+    "cid": "LEGITEXT000006069569",
+    "etat": "VIGUEUR",
+    "titre": "Code général des impôts, annexe II",
+    "dateDebut": "1967-09-16T00:00:00.000+0000",
+    "dateFin": "2999-01-01T00:00:00.000+0000",
+    "lastUpdate": "2026-07-01T00:00:00.000+0000",
+    "pdfFileName": "LEGITEXT000006069569.pdf",
+    "pdfFileSize": "681,3 Ko",
+    "pdfFilePath": "/LEGI/TEXT/00/00/06/06/95/69/LEGITEXT000006069569/LEGITEXT000006069569.pdf"
+  },
+  {
+    "id": "LEGITEXT000006069576",
+    "cid": "LEGITEXT000006069576",
+    "etat": "VIGUEUR",
+    "titre": "Code général des impôts, annexe IV",
+    "dateDebut": "1975-12-31T00:00:00.000+0000",
+    "dateFin": "2999-01-01T00:00:00.000+0000",
+    "lastUpdate": "2026-07-01T00:00:00.000+0000",
+    "pdfFileName": "LEGITEXT000006069576.pdf",
+    "pdfFileSize": "618,8 Ko",
+    "pdfFilePath": "/LEGI/TEXT/00/00/06/06/95/76/LEGITEXT000006069576/LEGITEXT000006069576.pdf"
+  },
+  {
+    "id": "LEGITEXT000006069583",
+    "cid": "LEGITEXT000006069583",
+    "etat": "VIGUEUR",
+    "titre": "Livre des procédures fiscales",
+    "dateDebut": "1938-06-01T00:00:00.000+0000",
+    "dateFin": "2999-01-01T00:00:00.000+0000",
+    "lastUpdate": "2026-07-01T00:00:00.000+0000",
+    "pdfFileName": "LEGITEXT000006069583.pdf",
+    "pdfFileSize": "685,6 Ko",
+    "pdfFilePath": "/LEGI/TEXT/00/00/06/06/95/83/LEGITEXT000006069583/LEGITEXT000006069583.pdf"
+  },
+  {
+    "id": "LEGITEXT000006069574",
+    "cid": "LEGITEXT000006069574",
+    "etat": "VIGUEUR",
+    "titre": "Code général des impôts, annexe III",
+    "dateDebut": "1950-04-30T00:00:00.000+0000",
+    "dateFin": "2999-01-01T00:00:00.000+0000",
+    "lastUpdate": "2026-07-01T00:00:00.000+0000",
+    "pdfFileName": "LEGITEXT000006069574.pdf",
+    "pdfFileSize": "1,8 Mo",
+    "pdfFilePath": "/LEGI/TEXT/00/00/06/06/95/74/LEGITEXT000006069574/LEGITEXT000006069574.pdf"
+  },
+  {
+    "id": "LEGITEXT000006069577",
+    "cid": "LEGITEXT000006069577",
+    "etat": "VIGUEUR",
+    "titre": "Code général des impôts",
+    "dateDebut": "1952-02-14T00:00:00.000+0000",
+    "dateFin": "2999-01-01T00:00:00.000+0000",
+    "lastUpdate": "2026-07-01T00:00:00.000+0000",
+    "pdfFileName": "LEGITEXT000006069577.pdf",
+    "pdfFileSize": "6,2 Mo",
+    "pdfFilePath": "/LEGI/TEXT/00/00/06/06/95/77/LEGITEXT000006069577/LEGITEXT000006069577.pdf"
+  }
+]
